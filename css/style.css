@@ -1,0 +1,38 @@
+/* rules used or usable in different parts of the page */
+    .yellow-back {
+        background-color: #e20c0e;
+    }
+
+    .green-back {
+        background-color: #2dfebd;
+    }
+/* /rules used or usable in different parts of the page */
+
+/* rules used in specific parts of the page */
+    html {
+        height: 100%;
+        font-size: 14px;
+    }
+
+    body {
+        display: flex;
+        height: 100%;
+        font-family: sans-serif;
+    }
+
+    .grid {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+
+    .grid .square {
+        float: left;
+        display: flex;
+        width: calc(100% / 6);
+        height: calc(100% / 6);
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+    }
+/* /rules used in specific parts of the page */
